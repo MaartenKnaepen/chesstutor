@@ -26,7 +26,7 @@ os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Custom image for the assistant's avatar
 company_logo_path = "streamlit/images/logo.png"
-image_path = 'streamlit\images\wallpaper.avif'
+image_path = 'streamlit/images/wallpaper.avif'
 
 # Function to convert image to base64
 def image_to_base64(image_path):
