@@ -1,8 +1,4 @@
-markdown
-
-Copy code
-
-`# Chess Tutor Chatbot
+# Chess Tutor Chatbot
 
 Welcome to the **Chess Tutor Chatbot** project! This project leverages the power of OpenAI's GPT-3.5-turbo model to create an interactive chatbot that can answer questions related to chess. The chatbot uses a vector store (FAISS) for efficient document retrieval and combines the retrieved documents with the language model to generate accurate and informative responses.
 
