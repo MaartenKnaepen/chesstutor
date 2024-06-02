@@ -15,12 +15,9 @@ st.set_page_config(
     page_title="Company Knowledge Base Chatbot"
 )
 
-
 # Get the OPENAI_API_KEY
 openai_api_key = st.secrets["OPENAI_API_KEY"]
 
-# Set the OPENAI_API_KEY as an environment variable
-os.environ["OPENAI_API_KEY"] = openai_api_key
 
 # Custom image for the assistant's avatar
 company_logo_path = "streamlit/images/logo.png"
