@@ -19,7 +19,7 @@ st.set_page_config(
 config = toml.load("streamlit/.streamlit/config.toml")
 
 # Get the OPENAI_API_KEY
-openai_api_key = config["credentials"]["OPENAI_API_KEY"]
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 
 # Set the OPENAI_API_KEY as an environment variable
 os.environ["OPENAI_API_KEY"] = openai_api_key
