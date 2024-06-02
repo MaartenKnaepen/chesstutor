@@ -15,8 +15,6 @@ st.set_page_config(
     page_title="Company Knowledge Base Chatbot"
 )
 
-# Load the config file
-config = toml.load("streamlit/.streamlit/config.toml")
 
 # Get the OPENAI_API_KEY
 openai_api_key = st.secrets["OPENAI_API_KEY"]
