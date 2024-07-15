@@ -22,18 +22,18 @@ Further instructions on this page are to run Chess Tutor Chatbot locally.
  ```sh
     git clone https://github.com/your-username/chess-tutor-chatbot.git
     cd chess-tutor-chatbot
-    ```
+ ```
 2. **Create a Virtual Environment** (optional but recommended):
 
  ```sh
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
+ ```
 3. **Install Dependencies**:
 
  ```sh
     pip install -r requirements.txt
-    ```
+ ```
 4. **Set Up Your OpenAI API Key**:
  - Replace `your_openai_api_key_here` with your actual OpenAI API key in `config.toml`.
 
@@ -46,7 +46,7 @@ To start the Streamlit app, use the following command:
 
 ```sh
 streamlit run streamlit/ChessTutor.py `
-
+```
 This command will launch the web interface. Open your browser and navigate to `http://localhost:8501` to interact with the Chess Tutor Chatbot.
 
 Project Structure
